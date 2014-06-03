@@ -11,6 +11,7 @@ gem "haml", "4.0.4"
 gem "haml-rails"
 # Use Less for stylesheets
 gem "less-rails"
+gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
@@ -53,3 +54,11 @@ gem "awesome_print", "1.2.0"
 gem 'hub', '~> 1.12.0'
 #Bit.ly
 gem 'bitly', '~> 0.9.0'
+#Zclip
+gem 'zeroclipboard-rails', '~> 0.0.13'
+
+# group :production do
+# 	gem 'pg'
+# end
+
+gem 'rails_12factor', '~> 0.0.2'
