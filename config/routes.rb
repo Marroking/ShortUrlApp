@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+
+  #Determinando los acciones que permitira el recurso urls
+  resources :urls, only: [:new, :create]
+  root to: "urls#new"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
