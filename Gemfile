@@ -51,3 +51,5 @@ gem "therubyracer", "~> 0.12.1"
 gem "awesome_print", "1.2.0"
 #hub
 gem 'hub', '~> 1.12.0'
+#Bit.ly
+gem 'bitly', '~> 0.9.0'
