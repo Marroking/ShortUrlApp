@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
   devise_for :users
-
   #Determinando los acciones que permitira el recurso urls
   resources :urls, only: [:new, :create]
   root to: "urls#new"
