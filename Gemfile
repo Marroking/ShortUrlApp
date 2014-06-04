@@ -57,8 +57,10 @@ gem 'bitly', '~> 0.9.0'
 #Zclip
 gem 'zeroclipboard-rails', '~> 0.0.13'
 
-# group :production do
-# 	gem 'pg'
-# end
+group :production do
+	gem 'pg'
+end
 
 gem 'rails_12factor', '~> 0.0.2'
+
+gem 'sinatra', '1.1.0'
